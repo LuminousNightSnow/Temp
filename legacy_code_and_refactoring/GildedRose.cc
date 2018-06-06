@@ -61,3 +61,19 @@ void GildedRose::printItems(std::ostream& outstream) {
     outstream << *i << std::endl;
   }
 }
+
+Item_Type Item::getItemTypeFromName(const string &name) {
+
+    if (name == "Aged Brie") {
+        return Item_Type::Aged_Brie;
+    }
+    if(name == "Backstage passes to a TAFKAL80ETC concert") {
+        return  Item_Type::Concert_Pass;
+    }
+    if(name == "Sulfuras, Hand of Ragnaros") {
+        return  Item_Type::Sulfuras;
+    }
+
+    return  Item_Type::Normal_Item;
+
+}

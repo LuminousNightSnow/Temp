@@ -19,20 +19,14 @@ class Item {
 public:
   Item(string name, int days_remaining, int quality)
       : name(name), days_remaining(days_remaining), quality(quality) {
-      if (name == "Aged Brie") {
-          item_type = Item_Type::Aged_Brie;
-      }
-      else if(name == "Backstage passes to a TAFKAL80ETC concert") {
-          item_type = Item_Type::Concert_Pass;
-      }
-      else if(name == "Sulfuras, Hand of Ragnaros") {
-          item_type = Item_Type::Sulfuras;
-      }
-      else {
-          item_type = Item_Type::Normal_Item;
-      }
+
+      item_type = getItemTypeFromName(name);
+
   }
-  friend class GildedRose;
+
+    Item_Type getItemTypeFromName(const string &name);
+
+    friend class GildedRose;
   friend std::ostream &operator<<(std::ostream &s, Item &item);
 
 private:
