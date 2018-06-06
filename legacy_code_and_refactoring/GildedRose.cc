@@ -12,14 +12,14 @@ void GildedRose::updateQuality()
     {
         if (items_[i].item_type == Item_Type::Normal_Item)
         {
-            const int quality_decrement = (items_[i].days_remaining <= 0) ? 2 : 1;
-            items_[i].quality = std::max(items_[i].quality - quality_decrement, 0);
-
-            items_[i].days_remaining -= 1;
-
+            updateNormalItem(i);
             return;
         }
-
+        if (items_[i].item_type == Item_Type::Aged_Brie)
+        {
+            updateAgedBrieItem(i);
+            return;
+        }
         if (items_[i].item_type != Item_Type::Aged_Brie && items_[i].item_type != Item_Type::Concert_Pass)
         {
             if (items_[i].quality > 0)
@@ -86,6 +86,24 @@ void GildedRose::updateQuality()
             }
         }
     }
+}
+
+void GildedRose::updateAgedBrieItem(int i)
+{
+    const int max_quality_brie = 50;
+    const int quality_increment = (items_[i].days_remaining <= 0) ? 2 : 1;
+    items_[i].quality = std::min(items_[i].quality + quality_increment, max_quality_brie);
+
+    items_[i].days_remaining -= 1;
+}
+
+void GildedRose::updateNormalItem(int i)
+{
+    const int quality_decrement = (items_[i].days_remaining <= 0) ? 2 : 1;
+    const int min_quality_normal = 0;
+    items_[i].quality = max(items_[i].quality - quality_decrement, min_quality_normal);
+
+    items_[i].days_remaining -= 1;
 }
 
 void GildedRose::addItem(const Item& item)
