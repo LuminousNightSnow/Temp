@@ -11,14 +11,14 @@ class GildedRose;
 class Item {
 public:
   Item(string name, int days_remaining, int quality)
-      : t(name), d(days_remaining), v(quality) {}
+      : name(name), days_remaining(days_remaining), quality(quality) {}
   friend class GildedRose;
   friend std::ostream &operator<<(std::ostream &s, Item &item);
 
 private:
-  string t;
-  int d;
-  int v;
+  string name;
+  int days_remaining;
+  int quality;
 };
 
 class GildedRose {
