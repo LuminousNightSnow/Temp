@@ -33,7 +33,6 @@ public:
 
 private:
   Item_Type getItemTypeFromName(const string &name);
-
   Item_Type item_type;
   string name;
   int days_remaining;
