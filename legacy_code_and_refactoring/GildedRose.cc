@@ -13,77 +13,21 @@ void GildedRose::updateQuality()
         if (items_[i].item_type == Item_Type::Normal_Item)
         {
             updateNormalItem(i);
-            return;
+            continue;
         }
         if (items_[i].item_type == Item_Type::Aged_Brie)
         {
             updateAgedBrieItem(i);
-            return;
+            continue;
         }
-        if (items_[i].item_type != Item_Type::Aged_Brie && items_[i].item_type != Item_Type::Concert_Pass)
+        if (items_[i].item_type == Item_Type::Concert_Pass)
         {
-            if (items_[i].quality > 0)
-            {
-                if (items_[i].item_type != Item_Type::Sulfuras)
-                {
-                    items_[i].quality -= 1;
-                }
-            }
+            updateConcertPassItem(i);
+            continue;
         }
-        else
+        if (items_[i].item_type == Item_Type::Sulfuras)
         {
-            if (items_[i].quality < 50)
-            {
-                items_[i].quality = items_[i].quality + 1;
-                if (items_[i].item_type == Item_Type::Concert_Pass)
-                {
-                    if (items_[i].days_remaining < 11)
-                    {
-                        if (items_[i].quality < 50)
-                        {
-                            items_[i].quality += 1;
-                        }
-                    }
-                    if (items_[i].days_remaining < 6)
-                    {
-                        if (items_[i].quality < 50)
-                        {
-                            items_[i].quality++;
-                        }
-                    }
-                }
-            }
-        }
-        if (items_[i].item_type != Item_Type::Sulfuras)
-        {
-            --items_[i].days_remaining;
-        }
-        if (items_[i].days_remaining < 0)
-        {
-            if (items_[i].item_type != Item_Type::Aged_Brie)
-            {
-                if (items_[i].item_type != Item_Type::Concert_Pass)
-                {
-                    if (items_[i].quality > 0)
-                    {
-                        if (items_[i].item_type != Item_Type::Sulfuras)
-                        {
-                            items_[i].quality = items_[i].quality - 1;
-                        }
-                    }
-                }
-                else
-                {
-                    items_[i].quality = items_[i].quality - items_[i].quality;
-                }
-            }
-            else
-            {
-                if (items_[i].quality < 50)
-                {
-                    ++items_[i].quality;
-                }
-            }
+            continue;
         }
     }
 }
@@ -104,6 +48,36 @@ void GildedRose::updateNormalItem(int i)
     items_[i].quality = max(items_[i].quality - quality_decrement, min_quality_normal);
 
     items_[i].days_remaining -= 1;
+}
+
+void GildedRose::updateConcertPassItem(int i)
+{
+    if (items_[i].days_remaining <= 0)
+    {
+        items_[i].quality = 0;
+    }
+    else
+    {
+        int quality_increment;
+        quality_increment = getQualityIncrementForConcertPass(items_[i].days_remaining);
+
+        const int max_quality_pass = 50;
+        items_[i].quality = min(items_[i].quality + quality_increment, max_quality_pass);
+    }
+
+    items_[i].days_remaining -= 1;
+}
+
+int GildedRose::getQualityIncrementForConcertPass(int days_remaining) const
+{
+    int quality_increment;
+    if (days_remaining > 10)
+        quality_increment = 1;
+    else if (days_remaining > 5)
+        quality_increment = 2;
+    else
+        quality_increment = 3;
+    return quality_increment;
 }
 
 void GildedRose::addItem(const Item& item)

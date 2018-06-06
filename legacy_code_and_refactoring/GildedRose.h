@@ -58,6 +58,10 @@ class GildedRose
     void updateNormalItem(int i);
 
     void updateAgedBrieItem(int i);
+
+    void updateConcertPassItem(int i);
+
+    int getQualityIncrementForConcertPass(int i) const;
 };
 
 #endif  // GILDEDROSE_H
