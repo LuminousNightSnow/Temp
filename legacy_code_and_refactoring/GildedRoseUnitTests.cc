@@ -265,3 +265,23 @@ TEST_F(BackstagePassItem, after_sell_date)
     MakeAndUpdateItem();
     EXPECT_EQ(unit.begin()->getQuality(), 0);
 }
+
+TEST_F(BackstagePassItem, very_close_to_sell_date_lower_bound_at_quality_48)
+{
+
+    days_remaining_ = 5;
+    initial_quality_ = 48;
+    MakeAndUpdateItem();
+
+    EXPECT_EQ(unit.begin()->getQuality(), 50);
+}
+
+TEST_F(BackstagePassItem, close_to_sell_date_lower_bound_at_quality_49)
+{
+
+    days_remaining_ = 5;
+    initial_quality_ = 49;
+    MakeAndUpdateItem();
+
+    EXPECT_EQ(unit.begin()->getQuality(), 50);
+}
