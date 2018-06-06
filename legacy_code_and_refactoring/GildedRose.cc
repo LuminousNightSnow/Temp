@@ -8,16 +8,16 @@ std::ostream &operator<<(std::ostream &s, Item &item) {
 
 void GildedRose::updateQuality() {
   for (int i = 0; i < items_.size(); i++) {
-    if (items_[i].name != item1 && items_[i].name != item2) {
+    if (items_[i].item_type != Item_Type::Aged_Brie && items_[i].item_type != Item_Type::Concert_Pass) {
       if (items_[i].quality > 0) {
-        if (items_[i].name != item3) {
+        if (items_[i].item_type != Item_Type::Sulfuras) {
           items_[i].quality -= 1;
         }
       }
     } else {
       if (items_[i].quality < 50) {
         items_[i].quality = items_[i].quality + 1;
-        if (items_[i].name == item2) {
+        if (items_[i].item_type == Item_Type::Concert_Pass) {
           if (items_[i].days_remaining < 11) {
             if (items_[i].quality < 50) {
               items_[i].quality += 1;
@@ -31,14 +31,14 @@ void GildedRose::updateQuality() {
         }
       }
     }
-    if (items_[i].name != item3) {
+    if (items_[i].item_type != Item_Type::Sulfuras) {
       --items_[i].days_remaining;
     }
     if (items_[i].days_remaining < 0) {
-      if (items_[i].name != item1) {
-        if (items_[i].name != item2) {
+      if (items_[i].item_type != Item_Type::Aged_Brie) {
+        if (items_[i].item_type != Item_Type::Concert_Pass) {
           if (items_[i].quality > 0) {
-            if (items_[i].name != item3) {
+            if (items_[i].item_type != Item_Type::Sulfuras) {
               items_[i].quality = items_[i].quality - 1;
             }
           }
