@@ -1,0 +1,600 @@
+Day is 0
++5 Dexterity Vest, 9, 19
+Aged Brie, 9, 21
+Backstage passes to a TAFKAL80ETC concert, 9, 22
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 1
++5 Dexterity Vest, 8, 18
+Aged Brie, 8, 22
+Backstage passes to a TAFKAL80ETC concert, 8, 24
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 2
++5 Dexterity Vest, 7, 17
+Aged Brie, 7, 23
+Backstage passes to a TAFKAL80ETC concert, 7, 26
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 3
++5 Dexterity Vest, 6, 16
+Aged Brie, 6, 24
+Backstage passes to a TAFKAL80ETC concert, 6, 28
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 4
++5 Dexterity Vest, 5, 15
+Aged Brie, 5, 25
+Backstage passes to a TAFKAL80ETC concert, 5, 30
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 5
++5 Dexterity Vest, 4, 14
+Aged Brie, 4, 26
+Backstage passes to a TAFKAL80ETC concert, 4, 33
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 6
++5 Dexterity Vest, 3, 13
+Aged Brie, 3, 27
+Backstage passes to a TAFKAL80ETC concert, 3, 36
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 7
++5 Dexterity Vest, 2, 12
+Aged Brie, 2, 28
+Backstage passes to a TAFKAL80ETC concert, 2, 39
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 8
++5 Dexterity Vest, 1, 11
+Aged Brie, 1, 29
+Backstage passes to a TAFKAL80ETC concert, 1, 42
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 9
++5 Dexterity Vest, 0, 10
+Aged Brie, 0, 30
+Backstage passes to a TAFKAL80ETC concert, 0, 45
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 10
++5 Dexterity Vest, -1, 8
+Aged Brie, -1, 32
+Backstage passes to a TAFKAL80ETC concert, -1, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 11
++5 Dexterity Vest, -2, 6
+Aged Brie, -2, 34
+Backstage passes to a TAFKAL80ETC concert, -2, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 12
++5 Dexterity Vest, -3, 4
+Aged Brie, -3, 36
+Backstage passes to a TAFKAL80ETC concert, -3, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 13
++5 Dexterity Vest, -4, 2
+Aged Brie, -4, 38
+Backstage passes to a TAFKAL80ETC concert, -4, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 14
++5 Dexterity Vest, -5, 0
+Aged Brie, -5, 40
+Backstage passes to a TAFKAL80ETC concert, -5, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 15
++5 Dexterity Vest, -6, 0
+Aged Brie, -6, 42
+Backstage passes to a TAFKAL80ETC concert, -6, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 16
++5 Dexterity Vest, -7, 0
+Aged Brie, -7, 44
+Backstage passes to a TAFKAL80ETC concert, -7, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 17
++5 Dexterity Vest, -8, 0
+Aged Brie, -8, 46
+Backstage passes to a TAFKAL80ETC concert, -8, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 18
++5 Dexterity Vest, -9, 0
+Aged Brie, -9, 48
+Backstage passes to a TAFKAL80ETC concert, -9, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 19
++5 Dexterity Vest, -10, 0
+Aged Brie, -10, 50
+Backstage passes to a TAFKAL80ETC concert, -10, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 20
++5 Dexterity Vest, -11, 0
+Aged Brie, -11, 50
+Backstage passes to a TAFKAL80ETC concert, -11, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 21
++5 Dexterity Vest, -12, 0
+Aged Brie, -12, 50
+Backstage passes to a TAFKAL80ETC concert, -12, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 22
++5 Dexterity Vest, -13, 0
+Aged Brie, -13, 50
+Backstage passes to a TAFKAL80ETC concert, -13, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 23
++5 Dexterity Vest, -14, 0
+Aged Brie, -14, 50
+Backstage passes to a TAFKAL80ETC concert, -14, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 24
++5 Dexterity Vest, -15, 0
+Aged Brie, -15, 50
+Backstage passes to a TAFKAL80ETC concert, -15, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 25
++5 Dexterity Vest, -16, 0
+Aged Brie, -16, 50
+Backstage passes to a TAFKAL80ETC concert, -16, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 26
++5 Dexterity Vest, -17, 0
+Aged Brie, -17, 50
+Backstage passes to a TAFKAL80ETC concert, -17, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 27
++5 Dexterity Vest, -18, 0
+Aged Brie, -18, 50
+Backstage passes to a TAFKAL80ETC concert, -18, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 28
++5 Dexterity Vest, -19, 0
+Aged Brie, -19, 50
+Backstage passes to a TAFKAL80ETC concert, -19, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 29
++5 Dexterity Vest, -20, 0
+Aged Brie, -20, 50
+Backstage passes to a TAFKAL80ETC concert, -20, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 30
++5 Dexterity Vest, -21, 0
+Aged Brie, -21, 50
+Backstage passes to a TAFKAL80ETC concert, -21, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 31
++5 Dexterity Vest, -22, 0
+Aged Brie, -22, 50
+Backstage passes to a TAFKAL80ETC concert, -22, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 32
++5 Dexterity Vest, -23, 0
+Aged Brie, -23, 50
+Backstage passes to a TAFKAL80ETC concert, -23, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 33
++5 Dexterity Vest, -24, 0
+Aged Brie, -24, 50
+Backstage passes to a TAFKAL80ETC concert, -24, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 34
++5 Dexterity Vest, -25, 0
+Aged Brie, -25, 50
+Backstage passes to a TAFKAL80ETC concert, -25, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 35
++5 Dexterity Vest, -26, 0
+Aged Brie, -26, 50
+Backstage passes to a TAFKAL80ETC concert, -26, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 36
++5 Dexterity Vest, -27, 0
+Aged Brie, -27, 50
+Backstage passes to a TAFKAL80ETC concert, -27, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 37
++5 Dexterity Vest, -28, 0
+Aged Brie, -28, 50
+Backstage passes to a TAFKAL80ETC concert, -28, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 38
++5 Dexterity Vest, -29, 0
+Aged Brie, -29, 50
+Backstage passes to a TAFKAL80ETC concert, -29, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 39
++5 Dexterity Vest, -30, 0
+Aged Brie, -30, 50
+Backstage passes to a TAFKAL80ETC concert, -30, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 40
++5 Dexterity Vest, -31, 0
+Aged Brie, -31, 50
+Backstage passes to a TAFKAL80ETC concert, -31, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 41
++5 Dexterity Vest, -32, 0
+Aged Brie, -32, 50
+Backstage passes to a TAFKAL80ETC concert, -32, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 42
++5 Dexterity Vest, -33, 0
+Aged Brie, -33, 50
+Backstage passes to a TAFKAL80ETC concert, -33, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 43
++5 Dexterity Vest, -34, 0
+Aged Brie, -34, 50
+Backstage passes to a TAFKAL80ETC concert, -34, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 44
++5 Dexterity Vest, -35, 0
+Aged Brie, -35, 50
+Backstage passes to a TAFKAL80ETC concert, -35, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 45
++5 Dexterity Vest, -36, 0
+Aged Brie, -36, 50
+Backstage passes to a TAFKAL80ETC concert, -36, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 46
++5 Dexterity Vest, -37, 0
+Aged Brie, -37, 50
+Backstage passes to a TAFKAL80ETC concert, -37, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 47
++5 Dexterity Vest, -38, 0
+Aged Brie, -38, 50
+Backstage passes to a TAFKAL80ETC concert, -38, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 48
++5 Dexterity Vest, -39, 0
+Aged Brie, -39, 50
+Backstage passes to a TAFKAL80ETC concert, -39, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 49
++5 Dexterity Vest, -40, 0
+Aged Brie, -40, 50
+Backstage passes to a TAFKAL80ETC concert, -40, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 50
++5 Dexterity Vest, -41, 0
+Aged Brie, -41, 50
+Backstage passes to a TAFKAL80ETC concert, -41, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 51
++5 Dexterity Vest, -42, 0
+Aged Brie, -42, 50
+Backstage passes to a TAFKAL80ETC concert, -42, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 52
++5 Dexterity Vest, -43, 0
+Aged Brie, -43, 50
+Backstage passes to a TAFKAL80ETC concert, -43, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 53
++5 Dexterity Vest, -44, 0
+Aged Brie, -44, 50
+Backstage passes to a TAFKAL80ETC concert, -44, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 54
++5 Dexterity Vest, -45, 0
+Aged Brie, -45, 50
+Backstage passes to a TAFKAL80ETC concert, -45, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 55
++5 Dexterity Vest, -46, 0
+Aged Brie, -46, 50
+Backstage passes to a TAFKAL80ETC concert, -46, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 56
++5 Dexterity Vest, -47, 0
+Aged Brie, -47, 50
+Backstage passes to a TAFKAL80ETC concert, -47, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 57
++5 Dexterity Vest, -48, 0
+Aged Brie, -48, 50
+Backstage passes to a TAFKAL80ETC concert, -48, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 58
++5 Dexterity Vest, -49, 0
+Aged Brie, -49, 50
+Backstage passes to a TAFKAL80ETC concert, -49, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 59
++5 Dexterity Vest, -50, 0
+Aged Brie, -50, 50
+Backstage passes to a TAFKAL80ETC concert, -50, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 60
++5 Dexterity Vest, -51, 0
+Aged Brie, -51, 50
+Backstage passes to a TAFKAL80ETC concert, -51, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 61
++5 Dexterity Vest, -52, 0
+Aged Brie, -52, 50
+Backstage passes to a TAFKAL80ETC concert, -52, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 62
++5 Dexterity Vest, -53, 0
+Aged Brie, -53, 50
+Backstage passes to a TAFKAL80ETC concert, -53, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 63
++5 Dexterity Vest, -54, 0
+Aged Brie, -54, 50
+Backstage passes to a TAFKAL80ETC concert, -54, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 64
++5 Dexterity Vest, -55, 0
+Aged Brie, -55, 50
+Backstage passes to a TAFKAL80ETC concert, -55, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 65
++5 Dexterity Vest, -56, 0
+Aged Brie, -56, 50
+Backstage passes to a TAFKAL80ETC concert, -56, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 66
++5 Dexterity Vest, -57, 0
+Aged Brie, -57, 50
+Backstage passes to a TAFKAL80ETC concert, -57, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 67
++5 Dexterity Vest, -58, 0
+Aged Brie, -58, 50
+Backstage passes to a TAFKAL80ETC concert, -58, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 68
++5 Dexterity Vest, -59, 0
+Aged Brie, -59, 50
+Backstage passes to a TAFKAL80ETC concert, -59, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 69
++5 Dexterity Vest, -60, 0
+Aged Brie, -60, 50
+Backstage passes to a TAFKAL80ETC concert, -60, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 70
++5 Dexterity Vest, -61, 0
+Aged Brie, -61, 50
+Backstage passes to a TAFKAL80ETC concert, -61, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 71
++5 Dexterity Vest, -62, 0
+Aged Brie, -62, 50
+Backstage passes to a TAFKAL80ETC concert, -62, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 72
++5 Dexterity Vest, -63, 0
+Aged Brie, -63, 50
+Backstage passes to a TAFKAL80ETC concert, -63, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 73
++5 Dexterity Vest, -64, 0
+Aged Brie, -64, 50
+Backstage passes to a TAFKAL80ETC concert, -64, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 74
++5 Dexterity Vest, -65, 0
+Aged Brie, -65, 50
+Backstage passes to a TAFKAL80ETC concert, -65, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 75
++5 Dexterity Vest, -66, 0
+Aged Brie, -66, 50
+Backstage passes to a TAFKAL80ETC concert, -66, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 76
++5 Dexterity Vest, -67, 0
+Aged Brie, -67, 50
+Backstage passes to a TAFKAL80ETC concert, -67, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 77
++5 Dexterity Vest, -68, 0
+Aged Brie, -68, 50
+Backstage passes to a TAFKAL80ETC concert, -68, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 78
++5 Dexterity Vest, -69, 0
+Aged Brie, -69, 50
+Backstage passes to a TAFKAL80ETC concert, -69, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 79
++5 Dexterity Vest, -70, 0
+Aged Brie, -70, 50
+Backstage passes to a TAFKAL80ETC concert, -70, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 80
++5 Dexterity Vest, -71, 0
+Aged Brie, -71, 50
+Backstage passes to a TAFKAL80ETC concert, -71, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 81
++5 Dexterity Vest, -72, 0
+Aged Brie, -72, 50
+Backstage passes to a TAFKAL80ETC concert, -72, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 82
++5 Dexterity Vest, -73, 0
+Aged Brie, -73, 50
+Backstage passes to a TAFKAL80ETC concert, -73, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 83
++5 Dexterity Vest, -74, 0
+Aged Brie, -74, 50
+Backstage passes to a TAFKAL80ETC concert, -74, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 84
++5 Dexterity Vest, -75, 0
+Aged Brie, -75, 50
+Backstage passes to a TAFKAL80ETC concert, -75, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 85
++5 Dexterity Vest, -76, 0
+Aged Brie, -76, 50
+Backstage passes to a TAFKAL80ETC concert, -76, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 86
++5 Dexterity Vest, -77, 0
+Aged Brie, -77, 50
+Backstage passes to a TAFKAL80ETC concert, -77, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 87
++5 Dexterity Vest, -78, 0
+Aged Brie, -78, 50
+Backstage passes to a TAFKAL80ETC concert, -78, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 88
++5 Dexterity Vest, -79, 0
+Aged Brie, -79, 50
+Backstage passes to a TAFKAL80ETC concert, -79, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 89
++5 Dexterity Vest, -80, 0
+Aged Brie, -80, 50
+Backstage passes to a TAFKAL80ETC concert, -80, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 90
++5 Dexterity Vest, -81, 0
+Aged Brie, -81, 50
+Backstage passes to a TAFKAL80ETC concert, -81, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 91
++5 Dexterity Vest, -82, 0
+Aged Brie, -82, 50
+Backstage passes to a TAFKAL80ETC concert, -82, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 92
++5 Dexterity Vest, -83, 0
+Aged Brie, -83, 50
+Backstage passes to a TAFKAL80ETC concert, -83, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 93
++5 Dexterity Vest, -84, 0
+Aged Brie, -84, 50
+Backstage passes to a TAFKAL80ETC concert, -84, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 94
++5 Dexterity Vest, -85, 0
+Aged Brie, -85, 50
+Backstage passes to a TAFKAL80ETC concert, -85, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 95
++5 Dexterity Vest, -86, 0
+Aged Brie, -86, 50
+Backstage passes to a TAFKAL80ETC concert, -86, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 96
++5 Dexterity Vest, -87, 0
+Aged Brie, -87, 50
+Backstage passes to a TAFKAL80ETC concert, -87, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 97
++5 Dexterity Vest, -88, 0
+Aged Brie, -88, 50
+Backstage passes to a TAFKAL80ETC concert, -88, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 98
++5 Dexterity Vest, -89, 0
+Aged Brie, -89, 50
+Backstage passes to a TAFKAL80ETC concert, -89, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+
+Day is 99
++5 Dexterity Vest, -90, 0
+Aged Brie, -90, 50
+Backstage passes to a TAFKAL80ETC concert, -90, 0
+Sulfuras, Hand of Ragnaros, 10, 20
+

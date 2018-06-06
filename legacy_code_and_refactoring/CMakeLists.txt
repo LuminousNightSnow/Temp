@@ -7,6 +7,8 @@ set(CMAKE_THREAD_LIBS_INIT pthread)
 
 set(CMAKE_CXX_STANDARD 17)
 
+set(CMAKE_CXX_FLAGS  "-g -O0 -Wall -fprofile-arcs -ftest-coverage")
+
 set(EXT_PROJECTS_DIR ${PROJECT_SOURCE_DIR}/ext)
 set(gtest_SOURCE_DIR ${EXT_PROJECTS_DIR}/googletest/googletest)
 
@@ -24,6 +26,9 @@ set(GILDED_ROSE_UNIT_TESTS_SOURCE_FILES
         ${GILDED_ROSE_SOURCE_FILES}
         GildedRoseUnitTests.cc)
 
+set(GILDED_ROSE_CHARACTERIZATION_TESTS_SOURCE_FILES
+        ${GILDED_ROSE_SOURCE_FILES}
+        GildedRoseCharacterizationTests.cc)
 #set(SOURCE_FILES
 #        ${GILDED_ROSE_SOURCE_FILES}
 #        ${GILDED_ROSE_TEXT_TESTS_SOURCE_FILES})
@@ -35,3 +40,6 @@ add_executable(GildedRose ${GILDED_ROSE_SOURCE_FILES} GildedRoseMain.cc)
 
 add_executable(GildedRoseUnitTests ${GILDED_ROSE_UNIT_TESTS_SOURCE_FILES})
 target_link_libraries(GildedRoseUnitTests gtest gtest_main ${CMAKE_THREAD_LIBS_INIT})
+
+add_executable(GildedRoseCharacterizationTests ${GILDED_ROSE_CHARACTERIZATION_TESTS_SOURCE_FILES})
+target_link_libraries(GildedRoseCharacterizationTests gtest gtest_main ${CMAKE_THREAD_LIBS_INIT})
