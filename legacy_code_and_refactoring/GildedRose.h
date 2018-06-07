@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "IItem.h"
 
 using namespace std;
 
@@ -16,52 +17,44 @@ enum class Item_Type
 
 class GildedRose;
 
-class Item
-{
-  public:
-    Item(string name, int days_remaining, int quality) : name(name), days_remaining(days_remaining), quality(quality)
-    {
-
-        item_type = getItemTypeFromName(name);
-    }
-
-    int getQuality() const { return quality; };
-    int getDaysRemaining() const { return days_remaining; };
-
-    friend class GildedRose;
-
-    friend std::ostream& operator<<(std::ostream& s, Item& item);
-
-  private:
-    Item_Type getItemTypeFromName(const string& name);
-    Item_Type item_type;
-    string name;
-    int days_remaining;
-    int quality;
-};
+//class Item
+//{
+//  public:
+//    Item(string name, int days_remaining, int quality) : name(name), days_remaining(days_remaining), quality(quality)
+//    {
+//
+//        item_type = getItemTypeFromName(name);
+//    }
+//
+//    int getQuality() const { return quality; };
+//    int getDaysRemaining() const { return days_remaining; };
+//
+//    friend class GildedRose;
+//
+//    friend std::ostream& operator<<(std::ostream& s, Item& item);
+//
+//  private:
+//    Item_Type getItemTypeFromName(const string& name);
+//    Item_Type item_type;
+//    string name;
+//    int days_remaining;
+//    int quality;
+//};
 
 class GildedRose
 {
   private:
-    using items_t = std::vector<Item>;
+    using items_t = std::vector<ItemPointer>;
 
   public:
     void printItems(std::ostream& outstream = std::cout);
-    void addItem(const Item& item);
     void updateQuality();
+    void addItem(ItemPointer item);
     using const_iterator = items_t::const_iterator;
     const_iterator begin() { return items_.cbegin(); }
 
   private:
     items_t items_;
-
-    void updateNormalItem(int i);
-
-    void updateAgedBrieItem(int i);
-
-    void updateConcertPassItem(int i);
-
-    int getQualityIncrementForConcertPass(int i) const;
 };
 
 #endif  // GILDEDROSE_H
