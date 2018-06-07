@@ -17,8 +17,8 @@ public:
 protected:
     int days_remaining_{5};
     int initial_quality_{20};
-    const int max_quality_;
     string name_;
+    const int max_quality_;
     ItemPointer unit;
 
     virtual void MakeAndUpdateItem() = 0;

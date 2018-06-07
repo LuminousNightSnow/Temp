@@ -7,6 +7,11 @@
 #include <fstream>
 
 #include "GildedRose.h"
+#include "NormalItem.h"
+#include "BrieItem.h"
+#include "ConcertPassItem.h"
+#include "SulfurasItem.h"
+
 std::string readGroundtruth(const std::string& filename)
 {
     std::ifstream file{filename, std::ifstream::in};
@@ -19,10 +24,10 @@ std::string readGroundtruth(const std::string& filename)
 TEST(GildedRoseCharacterizationTest, Foo) {
   GildedRose app;
 
-  app.addItem(Item("+5 Dexterity Vest", 10, 20));
-  app.addItem(Item("Aged Brie", 10, 20));
-  app.addItem(Item("Backstage passes to a TAFKAL80ETC concert", 10, 20));
-  app.addItem(Item("Sulfuras, Hand of Ragnaros", 10, 20));
+  app.addItem(ItemPointer {new NormalItem("+5 Dexterity Vest", 10, 20)});
+  app.addItem(ItemPointer {new BrieItem("Aged Brie", 10, 20)});
+  app.addItem(ItemPointer {new ConcertPassItem("Backstage passes to a TAFKAL80ETC concert", 10, 20)});
+  app.addItem(ItemPointer {new SulfurasItem("Sulfuras, Hand of Ragnaros", 10, 20)});
 
     std::stringstream output;
 
