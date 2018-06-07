@@ -1,20 +1,20 @@
 #include <gtest/gtest.h>
-#include "IItem.h"
-#include "NormalItem.h"
 #include "BrieItem.h"
-#include "SulfurasItem.h"
 #include "ConcertPassItem.h"
 #include "ConjuredItem.h"
+#include "IItem.h"
+#include "NormalItem.h"
+#include "SulfurasItem.h"
 
 using namespace std;
 
 class ItemTest1 : public testing::Test
 {
-public:
+  public:
     ItemTest1(const string& name) : name_(name), max_quality_(50) {}
     virtual ~ItemTest1() = default;
 
-protected:
+  protected:
     int days_remaining_{5};
     int initial_quality_{20};
     string name_;
@@ -26,25 +26,23 @@ protected:
 
 class NormalItemTest1 : public ItemTest1
 {
-public:
+  public:
     NormalItemTest1(const string& name = std::string{"+5 Dexterity Vest"}) : ItemTest1(name) {}
-    virtual void MakeAndUpdateItem() override
+    void MakeAndUpdateItem() override
     {
 
         unit.reset(new NormalItem(name_, days_remaining_, initial_quality_));
         unit->update();
         EXPECT_EQ(unit->getDaysRemaining(), days_remaining_ - 1);
     }
-
 };
 
 class BrieItemTest1 : public ItemTest1
 {
-public:
+  public:
     BrieItemTest1(const string& name_ = "Aged Brie") : ItemTest1(name_) {}
-    virtual void MakeAndUpdateItem() override
+    void MakeAndUpdateItem() override
     {
-
         unit.reset(new BrieItem(name_, days_remaining_, initial_quality_));
         unit->update();
         EXPECT_EQ(unit->getDaysRemaining(), days_remaining_ - 1);
@@ -53,11 +51,11 @@ public:
 
 class SulfurasItemTest1 : public ItemTest1
 {
-public:
+  public:
     SulfurasItemTest1(const string& name_ = "Sulfuras, Hand of Ragnaros") : ItemTest1(name_) {}
 
-protected:
-    virtual void MakeAndUpdateItem() override
+  protected:
+    void MakeAndUpdateItem() override
     {
         unit.reset(new SulfurasItem(name_, days_remaining_, initial_quality_));
         unit->update();
@@ -67,36 +65,37 @@ protected:
 
 class ConcertPassItemTest : public ItemTest1
 {
-public:
+  public:
     ConcertPassItemTest(const string& name_ = "Backstage passes to a TAFKAL80ETC concert") : ItemTest1(name_) {}
 
-protected:
-    virtual void MakeAndUpdateItem() override
+  protected:
+    void MakeAndUpdateItem() override
     {
         unit.reset(new ConcertPassItem(name_, days_remaining_, initial_quality_));
         unit->update();
-        EXPECT_EQ(unit->getDaysRemaining(), days_remaining_-1);
+        EXPECT_EQ(unit->getDaysRemaining(), days_remaining_ - 1);
     }
-    
 };
 
-class ConjuredItemTest : public ItemTest1{
-public:
-    ConjuredItemTest(const string& name = "conjured item") : ItemTest1(name){}
+class ConjuredItemTest : public ItemTest1
+{
+  public:
+    ConjuredItemTest(const string& name = "conjured item") : ItemTest1(name) {}
 
-protected:
-    virtual void MakeAndUpdateItem() override
+  protected:
+    void MakeAndUpdateItem() override
     {
         unit.reset(new ConjuredItem(name_, days_remaining_, initial_quality_));
         unit->update();
-        EXPECT_EQ(unit->getDaysRemaining(), days_remaining_-1);
+        EXPECT_EQ(unit->getDaysRemaining(), days_remaining_ - 1);
     }
 };
 
-TEST_F (NormalItemTest1, UpdateNormalItem_WhenTypical){
+TEST_F(NormalItemTest1, UpdateNormalItem_WhenTypical)
+{
 
     MakeAndUpdateItem();
-    EXPECT_EQ(unit->getQuality(), initial_quality_ -1);
+    EXPECT_EQ(unit->getQuality(), initial_quality_ - 1);
 }
 
 TEST_F(NormalItemTest1, on_sell_date)
@@ -144,7 +143,6 @@ TEST_F(NormalItemTest1, sell_date_quality_one)
     MakeAndUpdateItem();
     EXPECT_EQ(unit->getQuality(), initial_quality_ - 1);
 }
-
 
 TEST_F(BrieItemTest1, before_sell_date)
 {
@@ -326,5 +324,5 @@ TEST_F(ConjuredItemTest, WhenTypical)
 {
     MakeAndUpdateItem();
 
-    EXPECT_EQ(unit->getQuality(), initial_quality_ -2);
+    EXPECT_EQ(unit->getQuality(), initial_quality_ - 2);
 }

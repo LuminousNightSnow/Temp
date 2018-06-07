@@ -7,12 +7,14 @@
 
 #include "IItem.h"
 
-class ConjuredItem : public IItem{
-public:
-    ConjuredItem(const std::string &name, int days_remaining, int quality) : IItem(name, days_remaining, quality) {}
+class ConjuredItem : public IItem
+{
+  public:
+    ConjuredItem(const std::string& name, int days_remaining, int quality) : IItem(name, days_remaining, quality) {}
     virtual ~ConjuredItem() = default;
 
-    void update() override {
+    void update() override
+    {
 
         const int quality_decrement = (getDaysRemaining() <= 0) ? 4 : 2;
         decreaseQualityBy(quality_decrement);
@@ -20,7 +22,4 @@ public:
     };
 };
 
-
-
-
-#endif //CPP_ConjuredItem_H
+#endif  // CPP_ConjuredItem_H

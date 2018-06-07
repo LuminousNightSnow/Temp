@@ -7,14 +7,13 @@
 
 #include "IItem.h"
 
-class SulfurasItem : public IItem{
-public:
-    SulfurasItem(const std::string &name, int days_remaining, int quality) : IItem(name, days_remaining, quality) {}
+class SulfurasItem : public IItem
+{
+  public:
+    SulfurasItem(const std::string& name, int days_remaining, int quality) : IItem(name, days_remaining, quality) {}
     virtual ~SulfurasItem() = default;
 
-    void update() override {};
+    void update() override{};
 };
 
-
-
-#endif //CPP_SulfurasItem_H
+#endif  // CPP_SulfurasItem_H

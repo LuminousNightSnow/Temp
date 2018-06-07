@@ -8,7 +8,7 @@ std::ostream& operator<<(std::ostream& s, ItemPointer item)
 
 void GildedRose::updateQuality()
 {
-    for (auto item:items_)
+    for (auto item : items_)
     {
         item->update();
     }
@@ -21,7 +21,7 @@ void GildedRose::addItem(ItemPointer item)
 
 void GildedRose::printItems(std::ostream& outstream)
 {
-    for(const auto item:items_)
+    for (const auto item : items_)
     {
         outstream << item << std::endl;
     }
