@@ -49,6 +49,14 @@ protected:
         quality_ = std::max(quality_ - quality_decrement, min_quality_);
     }
 
+    void incrementQualityBy(const int quality_increment)
+    {
+        quality_ = std::min(quality_ + quality_increment, max_quality_);
+    }
+
+    void setToMinimumQuality(){
+        quality_ =min_quality_;
+    }
 
 private:
     std::string name_;

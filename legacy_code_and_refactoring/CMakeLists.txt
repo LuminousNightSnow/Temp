@@ -22,6 +22,9 @@ set(GILDED_ROSE_SOURCE_FILES
         GildedRose.h
         IItem.h
         NormalItem.h
+        BrieItem.h
+        SulfurasItem.h
+        ConcertPassItem.h
         )
 
 set(GILDED_ROSE_UNIT_TESTS_SOURCE_FILES
