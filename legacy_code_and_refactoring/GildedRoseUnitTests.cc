@@ -8,6 +8,7 @@ class ItemTest : public testing::Test
 {
   public:
     ItemTest(const string& name_) : name_(name_), max_quality_(50) {}
+    virtual ~ItemTest() = default;
 
   protected:
     vector<Item> items_;

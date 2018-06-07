@@ -20,11 +20,15 @@ include_directories(${gtest_SOURCE_DIR}/include)
 set(GILDED_ROSE_SOURCE_FILES
         GildedRose.cc
         GildedRose.h
+        IItem.h
+        NormalItem.h
         )
 
 set(GILDED_ROSE_UNIT_TESTS_SOURCE_FILES
         ${GILDED_ROSE_SOURCE_FILES}
-        GildedRoseUnitTests.cc)
+        GildedRoseUnitTests.cc
+        ItemUnitTest.cc
+)
 
 set(GILDED_ROSE_CHARACTERIZATION_TESTS_SOURCE_FILES
         ${GILDED_ROSE_SOURCE_FILES}

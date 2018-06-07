@@ -34,7 +34,8 @@ TEST(GildedRoseCharacterizationTest, Foo) {
     }
 
   //std::string groundtruth = readGroundtruth("../../smaller");
-    std::string groundtruth = readGroundtruth("/home/qq/git_repos/code_snippets/CharacterizationTestOutput.txt");
+    //std::string groundtruth = readGroundtruth("/home/qq/git_repos/code_snippets/CharacterizationTestOutput.txt");
+    std::string groundtruth = readGroundtruth("/home/bmwuser/github/playground/code_snippets/CharacterizationTestOutput.txt");
 
     EXPECT_EQ(groundtruth, output.str());
 
