@@ -4,6 +4,7 @@
 #include "BrieItem.h"
 #include "SulfurasItem.h"
 #include "ConcertPassItem.h"
+#include "ConjuredItem.h"
 
 using namespace std;
 
@@ -79,6 +80,18 @@ protected:
     
 };
 
+class ConjuredItemTest : public ItemTest1{
+public:
+    ConjuredItemTest(const string& name = "conjured item") : ItemTest1(name){}
+
+protected:
+    virtual void MakeAndUpdateItem() override
+    {
+        unit.reset(new ConjuredItem(name_, days_remaining_, initial_quality_));
+        unit->update();
+        EXPECT_EQ(unit->getDaysRemaining(), days_remaining_-1);
+    }
+};
 
 TEST_F (NormalItemTest1, UpdateNormalItem_WhenTypical){
 
@@ -307,4 +320,11 @@ TEST_F(ConcertPassItemTest, close_to_sell_date_lower_bound_at_quality_49)
     MakeAndUpdateItem();
 
     EXPECT_EQ(unit->getQuality(), 50);
+}
+
+TEST_F(ConjuredItemTest, WhenTypical)
+{
+    MakeAndUpdateItem();
+
+    EXPECT_EQ(unit->getQuality(), initial_quality_ -2);
 }

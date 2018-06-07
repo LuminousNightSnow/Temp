@@ -25,6 +25,7 @@ set(GILDED_ROSE_SOURCE_FILES
         BrieItem.h
         SulfurasItem.h
         ConcertPassItem.h
+        ConjuredItem.h
         )
 
 set(GILDED_ROSE_UNIT_TESTS_SOURCE_FILES
